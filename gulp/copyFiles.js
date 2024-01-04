@@ -8,7 +8,8 @@ const copyFiles = () =>
   gulp
     .src([
       `${pathSrc.font}/**`,
-      `${pathSrc.img}/**`
+      `${pathSrc.img}/**`,
+      `${pathSrc.src}/favicon.ico`,
     ], {
       base: `${pathSrc.src}`
     })

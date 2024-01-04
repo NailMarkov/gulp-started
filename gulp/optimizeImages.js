@@ -48,7 +48,7 @@ const optimizeJpg = () =>
 
 const createWebp = () => {
   return gulp
-    .src(`${pathBuild.img}/**/*.{png,jpg}`)
+    .src([`${pathBuild.img}/**/*.{png,jpg}`, `!${pathBuild.img}/**/favicon.png`])
     .pipe(webp(`${optionImages.webp}`))
     .pipe(gulp.dest(`${pathBuild.img}`));
 };

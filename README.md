@@ -1,2 +1,2 @@
-# my_template_gulp
+# gulp_started
 Сборка Gulp
