@@ -1,0 +1,1 @@
+{"version":3,"sources":["blocks/page-header.scss"],"names":[],"mappings":"AAAA,Y,CACE,Y,CACA,uB,CAGF,mB,CAEE,c,CACA,Q,CACA,c,CACA,U","file":"style.min.css","sourcesContent":[".page-header {\r\n  padding: 20px;\r\n  background-color: tomato;\r\n}\r\n\r\n.page-header__title {\r\n  margin: 30;\r\n  padding: 0 30px;\r\n  margin: 0;\r\n  font-size: 28px;\r\n  color: white;\r\n}\r\n"]}
