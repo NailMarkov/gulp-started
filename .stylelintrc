@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-rational-order"
+  ],
+
+  "plugins": [
+    "stylelint-order",
+    "stylelint-scss",
+    "stylelint-config-rational-order/plugin"
+  ],
+
+  "rules": {
+    "declaration-no-important": true,
+    "max-nesting-depth": [4, {"ignoreAtRules": ["media", "include"]}],
+    "function-no-unknown": null,
+    "at-rule-no-unknown": null,
+    "order/properties-order": [],
+    "plugin/rational-order": [true, {
+      "border-in-box-model": false,
+      "empty-line-between-groups": false
+    }],
+    "selector-class-pattern": null
+  }
+}

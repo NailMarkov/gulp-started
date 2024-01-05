@@ -1,2 +1,2 @@
-.page-header{padding:20px;background-color:tomato}.page-header__title{padding:0 30px;margin:0;font-size:28px;color:#fff}
+.page-header{display:-webkit-box;display:-ms-flexbox;display:flex;position:relative;padding:20px;background-color:tomato}.page-header__title{background-color:#0ff;padding:0 30px;margin:0;font-size:28px;color:#fff}
 /*# sourceMappingURL=style.min.css.map */

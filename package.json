@@ -1,18 +1,26 @@
 {
   "name": "gulp_started",
   "version": "1.0.0",
-  "description": "",
+  "description": "Стартовый шаблон сборки Gulp",
   "main": "index.js",
   "scripts": {
     "html": "html-validator",
+    "stylelint": "stylelint \"src/scss/**/*.scss\"",
+    "stylelint:fix": "stylelint \"src/scss/**/*.scss\" --fix",
     "dev": "gulp dev",
     "build": "gulp build"
   },
+  "browserslist": [
+    "last 3 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
   "keywords": [],
   "author": "Markov Nail",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
     "browser-sync": "^2.29.3",
     "csso": "^5.0.5",
     "del": "^7.1.0",
@@ -20,6 +28,7 @@
     "gulp-csso": "^4.0.1",
     "gulp-imagemin": "^9.0.0",
     "gulp-notify": "^4.0.0",
+    "gulp-postcss": "^9.0.1",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
@@ -29,6 +38,13 @@
     "imagemin-pngquant": "^9.0.2",
     "imagemin-svgo": "^10.0.1",
     "sass": "^1.69.6",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-scss": "^6.0.0",
     "w3c-html-validator": "^1.6.1"
+  },
+  "dependencies": {
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^6.0.4"
   }
 }
